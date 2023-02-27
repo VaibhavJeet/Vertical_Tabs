@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "vertical-tabs-client-side-solution",
+    "id": "dd0eff8b-ad99-408c-be0c-65d3985c2b39",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "vertical-tabs description"
+      },
+      "longDescription": {
+        "default": "vertical-tabs description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "vertical-tabs Feature",
+        "description": "The feature that activates elements of the vertical-tabs solution.",
+        "id": "d023f24d-824d-4c81-9d1c-5b013cb883de",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/vertical-tabs.sppkg"
+  }
+}

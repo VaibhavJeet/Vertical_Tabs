@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "vertical-tabs-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/verticalTabsWebpart/VerticalTabsWebpartWebPart.js",
+          "manifest": "./src/webparts/verticalTabsWebpart/VerticalTabsWebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "VerticalTabsWebpartWebPartStrings": "lib/webparts/verticalTabsWebpart/loc/{locale}.js"
+  }
+}
